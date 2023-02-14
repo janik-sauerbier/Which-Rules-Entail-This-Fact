@@ -2,7 +2,7 @@
 Tim Gutberlet (tim.gutberlet@students.uni-mannheim.de) & Janik Sauerbier (janik.sauerbier@students.uni-mannheim.de)
 
 ## Summary
-In this work, we focus on the problem of identifying all rules that entail a certain target fact given a knowledge graph and a set of previously learned rules. This problem is relevant in the context of link prediction and explainability. We propose an efficient approach using relational database technology including indexing, filtering and pre-computing methods. Our experiments demonstrate the efficiency of our approach and the effect of various optimizations on different datasets like YAGO3-10, WN18RR and FB15k-237 using rules learned by the bottom up rule learner AnyBURL.
+Knowledge graphs (KGs) are used to store information about relationships between real-world entities in various fields. Learned rules over KGs describe patterns of KGs and allow for knowledge inference. In this paper, we focus on the problem of identifying all rules that entail a certain target fact given a KG and a set of previously learned rules. This can enable link prediction as well as help explain connections between rules and (potential) facts. Solving this problem time-efficiently for large rulesets and KGs is a challenge. To tackle this challenge, we propose an approach relying solely on RDBMSs including indexing, filtering and pre-computing methods. Our experiments demonstrate the efficiency of our approach and the effect of various optimizations on different datasets like YAGO3-10, WN18RR and FB15k-237 using rules learned by the bottom up rule learner AnyBURL.
 
 ## Folder structure
 
